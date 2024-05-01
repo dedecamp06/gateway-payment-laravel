@@ -11,7 +11,7 @@
   composer install
 ```
 
-- Insira a chave da API do Gateway no campo ASAAS_API_KEY. Caso não possua uma, utilize a chave de exemplo fornecida no .env.example.
+- Insira a chave da API do Gateway no campo ASAAS_API_KEY.
 
 - Inicie o servidor local com o comando:
 
@@ -26,9 +26,6 @@ Após acessar a rota principal e inserir um CPF válido, o cliente será criado.
 - Pagamento:
 Você será redirecionado para a página de pagamento, onde poderá escolher entre três métodos de pagamento: boleto, cartão de crédito ou pix.
 Não é necessário criar um usuário para cada transação. Simplesmente volte à página de pagamento para realizar uma nova transação.
-
-- Suporte
-Em caso de dúvidas ou problemas, estou à disposição por email (pedrosouza-developer@hotmail.com) ou WhatsApp (31 99111-2008).
 
 
 ![image](https://github.com/dedecamp06/gateway-payment-laravel/assets/16025244/8bc82f10-5c02-4e65-ba2e-aed2d7aa2d6f)
